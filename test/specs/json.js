@@ -35,11 +35,11 @@ describe("Json test", () => {
         console.log(niz[0].deca[0]);
 
         niz.forEach((object) => {
-           // if(object.id === wanted){
-           //     console.log("Ime: " + object.name + " | Prezime: " + object.surname);
-           // }
-            //
-            // 421console.log(object);
+           if(object.id === wanted){
+               console.log("Ime: " + object.name + " | Prezime: " + object.surname);
+           }
+
+            console.log(object);
         });
     });
 
